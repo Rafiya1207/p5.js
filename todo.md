@@ -1,0 +1,26 @@
+- Histogram Shapes
+  - Bell-Shaped (Normal)
+  - Skewed Right
+  - Skewed Left
+  - uniform
+- [x] Histogram visualizer
+
+- [x] random circles with random colors
+- [ ] Gaussian (normal) distribution
+- [ ] zig zag
+- [x] pink stripes (diagonal)
+- [ ] brick wall
+- [ ] honey comb
+- [ ] waves with curves
+- [ ] circle with sin and cos
+- [ ] circles comb
+- [ ] flower with curves
+- [ ] woven
+- [ ] snake skin
+- [ ] 2d macronne
+- [ ] half moon lace
+- [ ] leaf
+- [ ] fish skin pattern
+- [ ] english brick bond
+- [ ] flemish brick bond
+- [ ] rainbow wheel with curved lines 
