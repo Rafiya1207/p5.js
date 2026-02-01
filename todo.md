@@ -12,7 +12,7 @@
 - [ ] brick wall
 - [ ] honey comb
 - [ ] waves with curves
-- [ ] circle with sin and cos
+- [x] circle with sin and cos
 - [ ] circles comb
 - [ ] flower with curves
 - [ ] woven
