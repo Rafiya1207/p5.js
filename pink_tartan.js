@@ -1,3 +1,54 @@
+const palette = {
+  pastelPink: "#FEBCC6AF",
+  cottonCandy: "#FD9D9C87",
+  seashell: "#f9eae3ff",
+};
+
+const sett = [
+  {
+    x: -130,
+    y: -130,
+    colour: palette.pastelPink,
+    gap: 120,
+    thickness: 5,
+  },
+  {
+    x: -120,
+    y: -120,
+    colour: palette.cottonCandy,
+    gap: 120,
+    thickness: 5,
+  },
+  {
+    x: -60,
+    y: -60,
+    colour: palette.cottonCandy,
+    gap: 120,
+    thickness: 30,
+  },
+  {
+    x: 0,
+    y: 0,
+    colour: palette.pastelPink,
+    gap: 120,
+    thickness: 60,
+  },
+  {
+    x: 60,
+    y: 60,
+    colour: palette.cottonCandy,
+    gap: 120,
+    thickness: 30,
+  },
+  {
+    x: 130,
+    y: 130,
+    colour: palette.pastelPink,
+    gap: 120,
+    thickness: 5,
+  },
+];
+
 const drawHorizontals = () => {
   let stripeIndex = 0;
   let countOfStripesFilled = 0;
