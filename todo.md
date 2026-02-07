@@ -9,7 +9,7 @@
 - [ ] Gaussian (normal) distribution
 - [ ] zig zag
 - [x] pink stripes (diagonal)
-- [ ] brick wall
+- [x] brick wall
 - [ ] honey comb
 - [ ] waves with curves
 - [x] circle with sin and cos
@@ -24,3 +24,7 @@
 - [ ] english brick bond
 - [ ] flemish brick bond
 - [ ] rainbow wheel with curved lines 
+- [ ] double rainbow
+- [ ] fish game
+- [ ] black and white spiral
+- [ ] tadpole

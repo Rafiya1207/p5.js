@@ -1,4 +1,4 @@
-const palette = ["#03045e", "#0077b6", "#00b4d8", "#90e0ef", "#caf0f8"];
+const palette = ["#03045e","#0077b6","#00b4d8","#90e0ef","#caf0f8"];
 
 class Circle {
   constructor() {
@@ -19,7 +19,7 @@ class Circle {
       this.strokeColor = palette[++this.colorIndex % palette.length];
     }
     if (this.d < this.min) {
-      this.max -= 10;
+      this.max -= 5;
       this.fillColor = palette[this.colorIndex % palette.length];
       this.isMax = false;
     }
@@ -28,7 +28,6 @@ class Circle {
     } else {
       this.d += this.delta;
     }
-    console.log(this.strokeColor);
     stroke(this.strokeColor);
     fill(this.fillColor);
     circle(this.x, this.y, this.d);

@@ -2,7 +2,7 @@ let circles = [];
 const palette = ["#0077b6", "#03045e"];
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(500, 500);
 }
 
 function drawCircles() {
@@ -14,7 +14,7 @@ function drawCircles() {
   for (let index = 0; index < circles.length; index++) {
     const c = circles[index];
     strokeWeight(c.sw);
-    c.sw += 0.2;
+    c.sw += 0.09;
     stroke("#0077b6");
     fill("#03045e");
     circle(c.x, c.y, c.d);

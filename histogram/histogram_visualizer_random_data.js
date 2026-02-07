@@ -44,7 +44,7 @@ let numericData;
 
 const randomData = (floor, random, dataSize, start, end) => {
   const data = [];
-  
+
   for (let index = 0; index < dataSize; index++) {
     data.push(floor(random(start, end)));
   }
@@ -54,7 +54,7 @@ const randomData = (floor, random, dataSize, start, end) => {
 function setup() {
   createCanvas(400, 400);
   background(220);
-  const dataSize = 2000;
+  const dataSize = 3000;
   const lowerBoundary = 0;
   const upperBoundary = 400;
   numericData = randomData(
@@ -73,4 +73,3 @@ function draw() {
     rect(binStart, height - frequency, binWidth, frequency);
   });
 }
-
