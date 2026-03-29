@@ -29,3 +29,5 @@
 - [ ] black and white spiral
 - [ ] tadpole
 - [ ] vectors
+- [ ] logarithmic spirals
+- [ ] doyle's spiral

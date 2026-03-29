@@ -1,0 +1,3 @@
+- [ ] game flow
+- [ ] user flow
+- [ ] mock up
